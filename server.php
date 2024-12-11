@@ -12,7 +12,7 @@ $_SESSION['success'] = "";
 
 // DBMS connection code -> hostname,
 // username, password, database name
-$db = mysqli_connect('localhost', 'root', '', 'login');
+$db = mysqli_connect('localhost', 'trust96m_admin', 'Test@db24', 'login');
 
 // Registration code
 if (isset($_POST['reg_user'])) {
